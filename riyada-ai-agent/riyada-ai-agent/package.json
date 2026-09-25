@@ -1,0 +1,20 @@
+{
+  "name": "riyada-ai-agent",
+  "version": "1.0.0",
+  "description": "AI agent for شركة ريادة - answers phone calls and WhatsApp messages using Claude, and sends summaries to the owner",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "twilio": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
